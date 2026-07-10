@@ -1,5 +1,5 @@
 
-> ## Basic prompt to generate the better prompt
+> # Basic prompt to generate the better prompt
 >
 >I am creating a single page website using HTML5 and CSS. It's named "DevConf2026". Now, I am giving you a basic structure of the page:
 >A navbar with logo on the left, Tabs on the center and a Register Now button on the right.
@@ -13,6 +13,8 @@
 >
 >give me more quality prompt for this so that i can generate a html, css code for the design from chatgpt
 
+> # Main Prompt
+>
 > **Act as a Senior UI/UX Designer and Professional Frontend Developer.**
 >
 > I am building a modern, single-page conference website called **"DevConf2026"** using only **HTML5 and CSS3** (no JavaScript).
@@ -26,17 +28,13 @@
 > 5. *(Your task is to create this new section)*
 > 6. Footer
 >
-> ---
->
-> ## Create a new section titled:
+> **Create a new section titled:**
 >
 > **Sponsors & Frequently Asked Questions**
 >
 > This section should feel like a natural continuation of the website and help convince visitors to register before they reach the footer.
 >
-> ---
->
-> ### Part 1 — Sponsors
+> **Part 1 — Sponsors**
 >
 > Design a clean **Sponsors** section with:
 >
@@ -57,9 +55,7 @@
 >   * no gradients
 >   * equal spacing
 >
-> ---
->
-> ### Part 2 — FAQ
+> **Part 2 — FAQ**
 >
 > Create a beautiful FAQ section underneath the sponsors.
 >
@@ -84,9 +80,7 @@
 > * Can I transfer my ticket?
 > * Are student discounts available?
 >
-> ---
->
-> ## Design System
+> **Design System**
 >
 > Typography
 >
@@ -110,9 +104,7 @@
 >
 >   * `#E5E7EB`
 >
-> ---
->
-> ## Style Guidelines
+> **Style Guidelines**
 >
 > The website should look like a modern conference landing page similar to Stripe, Vercel, GitHub, or Linear.
 >
@@ -130,9 +122,7 @@
 > * Consistent spacing
 > * Smooth hover transitions (200–300ms)
 >
-> ---
->
-> ## Responsive Requirements
+> **Responsive Requirements**
 >
 > Desktop:
 >
@@ -149,9 +139,7 @@
 > * Comfortable spacing
 > * Touch-friendly sizing
 >
-> ---
->
-> ## Code Requirements
+> **Code Requirements**
 >
 > * Semantic HTML5 only
 > * CSS3 only
@@ -163,8 +151,6 @@
 > * Organize CSS into logical sections
 > * Use meaningful class names
 > * Avoid unnecessary wrappers
->
-> ---
 >
 > **Output Format**
 >
