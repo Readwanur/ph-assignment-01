@@ -46,7 +46,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 7vh;
+  margin-bottom: 20vh;
 }
 .banner-parent button {
   height: 74px;
@@ -76,7 +76,7 @@ a {
   text-align: center;
 }
 .meet-the-speakers {
-  margin-bottom: 7vh;
+  margin-bottom: 20vh;
 }
 .meet-the-speakers h2 {
   text-align: center;
@@ -221,19 +221,258 @@ a {
 .highlight-list ul {
   color: #bababa;
 }
-footer{
-    background-color: #0D1B2A;
-    color: #575757;
-    font-size: 16px;
-    padding: 45px 0;
-    margin-top: 7vh;
+footer {
+  background-color: #0d1b2a;
+  color: #575757;
+  font-size: 16px;
+  padding: 45px 0;
+  margin-top: 20vh;
 }
-.footer-parent{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.footer-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer-right{
-    display: flex;
-    gap: 25px;
+.footer-right {
+  display: flex;
+  gap: 25px;
+}
+
+/* AI Generated */
+/* ==========================
+   Sponsors & FAQ Section
+========================== */
+
+.sponsors-faq {
+  padding: 100px 8%;
+  background: #fff;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section-heading h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  color: #0d1b2a;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.section-heading p {
+  max-width: 650px;
+  margin: auto;
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* ==========================
+   Sponsors Grid
+========================== */
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.sponsor-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  padding: 35px;
+
+  text-align: center;
+
+  transition: 0.25s ease;
+
+  background: #fff;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 30px rgba(13, 27, 42, 0.08);
+
+  border-color: #1d4ed8;
+}
+
+.logo-placeholder {
+  width: 72px;
+  height: 72px;
+
+  border-radius: 50%;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0d1b2a;
+
+  color: white;
+
+  font-size: 1.6rem;
+
+  font-weight: 700;
+
+  margin-bottom: 24px;
+}
+
+.sponsor-card h3 {
+  color: #0d1b2a;
+
+  margin-bottom: 14px;
+
+  font-size: 1.2rem;
+}
+
+.tier {
+  display: inline-block;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+}
+
+.gold {
+  background: #eff6ff;
+
+  color: #1d4ed8;
+}
+
+.silver {
+  background: #f3f4f6;
+
+  color: #4b5563;
+}
+
+/* ==========================
+   FAQ
+========================== */
+
+.faq-container {
+  margin-top: 110px;
+}
+
+.faq-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.faq-list details {
+  border: 1px solid #e5e7eb;
+
+  border-radius: 14px;
+
+  padding: 22px 26px;
+
+  transition: 0.25s ease;
+
+  background: white;
+}
+
+.faq-list details:hover {
+  box-shadow: 0 8px 22px rgba(13, 27, 42, 0.06);
+
+  border-color: #1d4ed8;
+}
+
+.faq-list summary {
+  cursor: pointer;
+
+  list-style: none;
+
+  font-weight: 600;
+
+  color: #0d1b2a;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  font-size: 1.05rem;
+}
+
+.faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-list summary::after {
+  content: "+";
+
+  font-size: 1.5rem;
+
+  color: #1d4ed8;
+
+  transition: 0.3s;
+}
+
+.faq-list details[open] summary::after {
+  content: "−";
+}
+
+.faq-list p {
+  margin-top: 18px;
+
+  color: #6b7280;
+
+  line-height: 1.8;
+}
+
+.faq-list details:focus-within {
+  border-color: #1d4ed8;
+
+  outline: 2px solid rgba(29, 78, 216, 0.15);
+
+  outline-offset: 3px;
+}
+
+/* ==========================
+   Tablet
+========================== */
+
+@media (max-width: 900px) {
+  .sponsors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width: 600px) {
+  .sponsors-faq {
+    padding: 70px 6%;
+  }
+
+  .section-heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-card {
+    padding: 28px;
+  }
+
+  .faq-list summary {
+    font-size: 1rem;
+  }
 }
